@@ -1,3 +1,10 @@
 spring:
   application:
     name: crs
+  datasource:
+    url: jdbc:postgresql://localhost:5432/crs
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    enabled: true
